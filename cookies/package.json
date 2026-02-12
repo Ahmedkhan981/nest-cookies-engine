@@ -1,0 +1,47 @@
+{
+  "name": "nest-cookies-engine",
+  "version": "1.0.0",
+  "description": "Hybrid REST/GraphQL cookie decorator for NestJS",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "author": "Ahmed khan",
+  "license": "MIT",
+  "keywords": [
+    "nest",
+    "nestjs",
+    "cookies",
+    "fastify",
+    "express",
+    "graphql",
+    "cookie-parser",
+    "fastify-cookie",
+    "nestjs-cookies",
+    "cookie-engine",
+    "virtual"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^11.1.10",
+    "@nestjs/core": "^11.1.10",
+    "@nestjs/platform-express": "^11.1.10",
+    "@nestjs/platform-fastify": "^11.1.10",
+    "cookie-parser": "^1.4.7",
+    "@fastify/cookie": "^11.0.2"
+  },
+  "peerDependenciesMeta": {
+    "@nestjs/platform-express": {
+      "optional": true
+    },
+    "@nestjs/platform-fastify": {
+      "optional": true
+    },
+    "cookie-parser": {
+      "optional": true
+    },
+    "@fastify/cookie": {
+      "optional": true
+    }
+  }
+}
