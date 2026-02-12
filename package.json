@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@nestjs/common": "^11.1.13",
+    "@nestjs/core": "^11.1.13",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/graphql": "^13.2.4",
+    "@types/node": "^25.2.2"
+  },
+  "version": "0.0.1"
+}

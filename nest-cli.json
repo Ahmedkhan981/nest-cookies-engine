@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "cookies": {
+      "type": "library",
+      "root": "libs/cookies",
+      "entryFile": "index",
+      "sourceRoot": "libs/cookies/src",
+      "compilerOptions": {
+        "tsConfig": "libs/cookies/tsconfig.lib.json",
+        "assets": ["package.json", "README.md", "LICENSE"] 
+      }
+    }
+  }
+}
